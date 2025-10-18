@@ -18,18 +18,23 @@ This project analyzes maternal and child health data to identify risk factors fo
 3. **Outcome Engineering**: Birthweight analysis with LBW definition (<2,500g)
 4. **Exploratory Analysis**: Correlation analysis, statistical testing, pattern recognition
 
-### Advanced Dermatoglyphic Analysis
-- **AI Segmentation**: Facebook's Segment Anything Model (SAM)
-- **Feature Extraction**: Minutiae detection and topological data analysis
-- **Mathematical Modeling**: Persistent homology using Vietoris-Rips filtration
-
 ## 📁 Project Structure
 
 - `Data/` - Raw, processed, and final datasets
+  - `raw/` - Original unprocessed data files
+  - `processed/` - Cleaned and engineered datasets
+  - `external/` - Reference files and data dictionaries
 - `Scripts/` - Python analysis scripts and Jupyter notebooks
+  - `Feature_Engineering/` - Data processing and feature creation scripts
+  - `mle_procedural_notebook_with_evaluation.ipynb` - Main MLE analysis notebook
+- `NoteBooks/` - Jupyter notebooks for exploratory analysis
 - `PLOTS/` - Generated visualizations and analysis plots
+  - `Feature_Engineering/` - EDA and feature analysis plots
+  - `dermatoglyphic_qc_simple/` - Quality control visualizations
 - `Reports/` - Analysis reports and summaries
 - `Summary/` - Detailed documentation and methodology
+  - `MLE/` - Maximum Likelihood Estimation documentation
+  - `Step_1[FE]/` - Feature Engineering step documentation
 
 ## 🚀 Getting Started
 
