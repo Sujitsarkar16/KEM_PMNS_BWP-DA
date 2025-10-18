@@ -1,0 +1,14 @@
+Category,Metric,Value,Description
+Dataset Overview,Total Variables,856.0,Total number of variables in the dataset
+Dataset Overview,Total Observations,791.0,Total number of observations
+Dataset Overview,Missing Values,791.0,Total missing values across all variables
+Birthweight Analysis,Mean Birthweight (g),2575.68,Average birthweight in grams
+Birthweight Analysis,LBW Rate (%),36.66,Percentage of low birthweight cases
+Domain Analysis,Uncategorized Variables,816.0,Number of variables in Uncategorized domain
+Domain Analysis,Maternal_clinical_biomarkers Variables,19.0,Number of variables in Maternal_clinical_biomarkers domain
+Domain Analysis,Maternal_anthropometry Variables,10.0,Number of variables in Maternal_anthropometry domain
+Domain Analysis,Maternal_socio_demographic Variables,5.0,Number of variables in Maternal_socio_demographic domain
+Domain Analysis,Household_environment Variables,3.0,Number of variables in Household_environment domain
+Domain Analysis,Child_outcomes Variables,2.0,Number of variables in Child_outcomes domain
+Correlation Analysis,Strong Correlations (>0.3),0.0,Variables with strong correlation to birthweight
+Risk Factor Analysis,Significant Risk Factors,5.0,Variables significantly associated with LBW

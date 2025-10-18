@@ -191,18 +191,18 @@ dmypy.json
 .pyre/
 
 <<<<<<< HEAD
-# Data Science specific
-*.csv
-*.xlsx
-*.xls
-*.parquet
+# Data Science specific - exclude only large raw datasets
+# *.csv
+# *.xlsx
+# *.xls
+# *.parquet
 *.pkl
 *.pickle
 *.h5
 *.hdf5
 
-# Large data files (uncomment if you want to exclude large datasets)
-# Data/raw/*.xlsx
+# Large data files - exclude only very large raw datasets
+Data/raw/*.xlsx
 # Data/processed/*.csv
 # Data/processed/*.parquet
 
