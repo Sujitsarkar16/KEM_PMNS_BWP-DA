@@ -1,8 +1,3 @@
-# Comprehensive Exploratory Data Analysis Report
-## Senior Data Analyst: Alex
-### Critical Evaluation of Imputed PMNS Dataset
-
----
 
 ## Executive Summary
 
