@@ -1,0 +1,46 @@
+{
+    "best_params": {
+        "n_trees": 100,
+        "n_samples": 500,
+        "n_burn": 100,
+        "beta": 2.0,
+        "alpha": 0.95
+    },
+    "metrics": {
+        "rmse": 248.0321941810393,
+        "r2": 0.6304020636239192,
+        "mae": 187.94701473819802
+    },
+    "features": [
+        "f0_m_GA_Del",
+        "f0_m_plac_wt",
+        "f0_m_fundal_ht_v2",
+        "f0_m_abd_cir_v2",
+        "f0_m_g_sc_v2",
+        "f0_m_glu_f_v2",
+        "f0_m_pulse_r1_v2",
+        "f0_f_plt_ini",
+        "f0_f_head_cir_ini",
+        "f0_m_parity_v1",
+        "f0_m_r4_v2",
+        "f0_m_rcf_v2",
+        "f0_m_g_sc_v1",
+        "f0_m_wt_prepreg",
+        "f0_m_l_sc_v1",
+        "f0_m_waist_circ_v1",
+        "f0_m_wt_v2",
+        "f0_m_h_sc_v2",
+        "f0_m_o1_sc_v1",
+        "f0_m_plt_v1",
+        "f0_m_lunch_fat_v2",
+        "f0_m_rotis_fat_v1",
+        "f0_m_iron_fve_v1",
+        "f0_m_fer_v2",
+        "f0_f_ferr_ini",
+        "f0_m_h7_sc_v1",
+        "f0_m_cal_ch_v2",
+        "f0_m_j7_sc_v2",
+        "f0_m_d3_sc_v2",
+        "f0_f_ly_perc_ini"
+    ]
+}

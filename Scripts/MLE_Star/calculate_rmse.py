@@ -5,8 +5,8 @@ Calculate RMSE and Performance Metrics for MLE Model
 This script calculates RMSE, MAE, R² and other performance metrics
 for the MLE model on the maternal-child health dataset.
 
-Author: AI Assistant
-Date: 2024
+Author: Sujit sarkar
+Date: 2025-10-16
 """
 
 import numpy as np

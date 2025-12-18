@@ -1,0 +1,107 @@
+{
+  "timestamp": "2025-12-06T14:55:27.841601",
+  "original_shape": [
+    791,
+    856
+  ],
+  "enhanced_shape": [
+    791,
+    858
+  ],
+  "new_features": [
+    "Genetic_Volume",
+    "Placental_Efficiency_Proxy"
+  ],
+  "feature_statistics": {
+    "f0_m_ht": {
+      "description": "Maternal Height",
+      "stats": {
+        "count": 791,
+        "mean": 151.57629025694567,
+        "std": 9.496558404405341,
+        "min": -75.2306970128954,
+        "q25": 148.5,
+        "median": 152.0,
+        "q75": 155.4,
+        "max": 163.9,
+        "missing": 0,
+        "missing_pct": 0.0
+      }
+    },
+    "f0_f_head_cir_ini": {
+      "description": "Paternal Head Circumference",
+      "stats": {
+        "count": 791,
+        "mean": 54.06993553589194,
+        "std": 1.3745766086575926,
+        "min": 47.4,
+        "q25": 53.6,
+        "median": 54.064433534645,
+        "q75": 54.5,
+        "max": 59.0,
+        "missing": 0,
+        "missing_pct": 0.0
+      }
+    },
+    "f0_m_plac_wt": {
+      "description": "Maternal Placental Weight",
+      "stats": {
+        "count": 791,
+        "mean": 304.5721205161601,
+        "std": 143.27816918455923,
+        "min": 0.0,
+        "q25": 270.0,
+        "median": 335.0,
+        "q75": 395.0,
+        "max": 750.0,
+        "missing": 0,
+        "missing_pct": 0.0
+      }
+    },
+    "f0_m_wt_prepreg": {
+      "description": "Maternal Pre-pregnancy Weight",
+      "stats": {
+        "count": 791,
+        "mean": 41.31207367687516,
+        "std": 6.212153394379264,
+        "min": 0.0,
+        "q25": 38.0,
+        "median": 41.1,
+        "q75": 44.8,
+        "max": 69.0,
+        "missing": 0,
+        "missing_pct": 0.0
+      }
+    },
+    "Genetic_Volume": {
+      "description": "Genetic Envelope (Maternal Ht \u00d7 Paternal Head Circ)",
+      "stats": {
+        "count": 791,
+        "mean": 8196.786748459257,
+        "std": 564.954906103297,
+        "min": -4015.31991547444,
+        "q25": 7992.889999999999,
+        "median": 8219.871665558587,
+        "q75": 8432.993525270056,
+        "max": 9363.299999999941,
+        "missing": 0,
+        "missing_pct": 0.0
+      }
+    },
+    "Placental_Efficiency_Proxy": {
+      "description": "Placental Efficiency (Placental Wt / Pre-preg Wt)",
+      "stats": {
+        "count": 785,
+        "mean": 7.3636043005333685,
+        "std": 3.497298183438211,
+        "min": 0.0,
+        "q25": 6.544502617801046,
+        "median": 7.954545454545454,
+        "q75": 9.639830508474576,
+        "max": 17.72151898734177,
+        "missing": 6,
+        "missing_pct": 0.7585335018963337
+      }
+    }
+  }
+}

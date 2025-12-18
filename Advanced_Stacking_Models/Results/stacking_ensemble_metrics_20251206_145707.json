@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-06T14:57:07.641718",
+  "model": "Stacking_Ensemble",
+  "base_models": [
+    "xgboost",
+    "catboost",
+    "linear"
+  ],
+  "meta_learner": "Ridge (alpha=1.0)",
+  "cv_metrics": {
+    "rmse_mean": 273.75549844842817,
+    "rmse_std": 14.524957099364679,
+    "r2_mean": 0.5423471965891798,
+    "r2_std": 0.04516084118670065,
+    "mae_mean": 212.6885648790178,
+    "mae_std": 10.490946494396253
+  },
+  "full_metrics": {
+    "rmse": 132.67141295548703,
+    "r2": 0.8929144863193482,
+    "mae": 103.96120082204088
+  }
+}

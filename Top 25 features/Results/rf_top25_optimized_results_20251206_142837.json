@@ -1,0 +1,68 @@
+{
+  "model_type": "RandomForest_Optimized_Top25",
+  "num_features": 25,
+  "features": [
+    "f0_m_GA_Del",
+    "f0_m_plac_wt",
+    "f0_m_abd_cir_v2",
+    "f0_m_wt_v2",
+    "f0_m_fundal_ht_v2",
+    "f0_m_hip_circ_v2",
+    "f0_m_rcf_v2",
+    "f0_m_ht",
+    "f0_m_bmi_v2",
+    "f0_m_wt_prepreg",
+    "f0_m_snacks_sc_v1",
+    "f0_m_waist_circ_v2",
+    "f0_m_j8_sc_v1",
+    "f0_m_f10_sc_v1",
+    "f0_m_bmi_6yr",
+    "f0_m_age",
+    "f0_m_m2_sc_v1",
+    "f0_m_n_sc_v1",
+    "f0_m_g1_sc_v2",
+    "f0_m_o_sc_v1",
+    "f0_m_g_sc_v2",
+    "f0_f_wt_ini",
+    "f0_m_glv_sc_v",
+    "f0_m_p10_sc_v1",
+    "f0_m_d1_sc_v1"
+  ],
+  "best_parameters": {
+    "n_estimators": 300,
+    "min_samples_split": 2,
+    "min_samples_leaf": 2,
+    "max_features": null,
+    "max_depth": 10
+  },
+  "performance_metrics": {
+    "train": {
+      "RMSE": 124.62771387898275,
+      "MAE": 93.48442111735531,
+      "R\u00b2": 0.9069868421504997,
+      "MAPE": 3.8450196074206198,
+      "Correlation": 0.9627535458078992,
+      "P-value": 2.9752136663851603e-270,
+      "Sample_Size": 474
+    },
+    "validation": {
+      "RMSE": 249.25869511144526,
+      "MAE": 193.1646508098959,
+      "R\u00b2": 0.5968659953776121,
+      "MAPE": 7.581113704698699,
+      "Correlation": 0.7744948060770023,
+      "P-value": 7.724818102360087e-33,
+      "Sample_Size": 158
+    },
+    "test": {
+      "RMSE": 240.92310278272268,
+      "MAE": 194.66311160237836,
+      "R\u00b2": 0.6512852459571414,
+      "MAPE": 7.7426685011531395,
+      "Correlation": 0.8082136649898656,
+      "P-value": 6.16063624533472e-38,
+      "Sample_Size": 159
+    }
+  },
+  "timestamp": "20251206_142837"
+}

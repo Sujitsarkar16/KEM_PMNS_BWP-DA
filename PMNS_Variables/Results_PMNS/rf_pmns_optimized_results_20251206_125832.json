@@ -1,0 +1,65 @@
+{
+  "model_type": "RandomForest_Optimized_PMNS_Variables",
+  "num_features": 20,
+  "features": [
+    "f0_m_parity_v1",
+    "f0_m_wt_prepreg",
+    "f0_m_fundal_ht_v2",
+    "f0_m_abd_cir_v2",
+    "f0_m_wt_v2",
+    "f0_m_r4_v2",
+    "f0_m_lunch_cal_v1",
+    "f0_m_p_sc_v1",
+    "f0_m_o_sc_v1",
+    "f0_m_pulse_r1_v2",
+    "f0_m_pulse_r2_v2",
+    "f0_m_glu_f_v2",
+    "f0_m_rcf_v2",
+    "f0_m_g_sc_v1",
+    "f0_m_plac_wt",
+    "f0_m_GA_Del",
+    "f0_f_head_cir_ini",
+    "f0_f_plt_ini",
+    "f1_sex",
+    "f0_m_age_eld_child"
+  ],
+  "best_hyperparameters": {
+    "n_estimators": 400,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "max_features": 0.5,
+    "max_depth": null,
+    "bootstrap": true
+  },
+  "best_cv_rmse": 260.08139449510344,
+  "performance_metrics": {
+    "train": {
+      "RMSE": 99.9480740793592,
+      "MAE": 76.57645252453963,
+      "R\u00b2": 0.9401775780051917,
+      "MAPE": 3.1870893901673165,
+      "Correlation": 0.9813937831303096,
+      "P-value": 0.0,
+      "Sample_Size": 474
+    },
+    "validation": {
+      "RMSE": 87.98947946662643,
+      "MAE": 67.25787668513372,
+      "R\u00b2": 0.9497645501738806,
+      "MAPE": 2.6171452763864953,
+      "Correlation": 0.9835716995894688,
+      "P-value": 6.744430432570864e-118,
+      "Sample_Size": 158
+    },
+    "test": {
+      "RMSE": 230.21895324890718,
+      "MAE": 184.2509591706945,
+      "R\u00b2": 0.6815834905702545,
+      "MAPE": 7.44391567746977,
+      "Correlation": 0.8316211516778025,
+      "P-value": 6.002517576248353e-42,
+      "Sample_Size": 159
+    }
+  },
+  "timestamp": "20251206_125832"
+}

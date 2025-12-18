@@ -1,0 +1,71 @@
+{
+  "model_type": "MLE_Optimized_Top25_Variables",
+  "num_features": 25,
+  "features": [
+    "f0_m_GA_Del",
+    "f0_m_plac_wt",
+    "f0_m_abd_cir_v2",
+    "f0_m_wt_v2",
+    "f0_m_fundal_ht_v2",
+    "f0_m_hip_circ_v2",
+    "f0_m_rcf_v2",
+    "f0_m_ht",
+    "f0_m_bmi_v2",
+    "f0_m_wt_prepreg",
+    "f0_m_snacks_sc_v1",
+    "f0_m_waist_circ_v2",
+    "f0_m_j8_sc_v1",
+    "f0_m_f10_sc_v1",
+    "f0_m_bmi_6yr",
+    "f0_m_age",
+    "f0_m_m2_sc_v1",
+    "f0_m_n_sc_v1",
+    "f0_m_g1_sc_v2",
+    "f0_m_o_sc_v1",
+    "f0_m_g_sc_v2",
+    "f0_f_wt_ini",
+    "f0_m_glv_sc_v",
+    "f0_m_p10_sc_v1",
+    "f0_m_d1_sc_v1"
+  ],
+  "best_parameters": {
+    "max_iter": 50,
+    "tol": 0.0001,
+    "regularization": 0.0001
+  },
+  "convergence": {
+    "converged": true,
+    "iterations": 2,
+    "final_likelihood": -38453.412538911085
+  },
+  "performance_metrics": {
+    "train": {
+      "RMSE": 263.5670909458803,
+      "MAE": 199.55126315028252,
+      "R\u00b2": 0.5839960077697395,
+      "MAPE": 8.09891938757751,
+      "Correlation": 0.7641963151915478,
+      "P-value": 6.136113375411884e-92,
+      "Sample_Size": 474
+    },
+    "validation": {
+      "RMSE": 253.4982957539303,
+      "MAE": 203.7965558864089,
+      "R\u00b2": 0.5830356869302482,
+      "MAPE": 7.904785316319905,
+      "Correlation": 0.7674916402628617,
+      "P-value": 6.220055387697297e-32,
+      "Sample_Size": 158
+    },
+    "test": {
+      "RMSE": 252.42408163757133,
+      "MAE": 195.01687302840654,
+      "R\u00b2": 0.6171972957948534,
+      "MAPE": 7.771235467389054,
+      "Correlation": 0.7867241256059987,
+      "P-value": 1.0333562369791352e-34,
+      "Sample_Size": 159
+    }
+  },
+  "timestamp": "20251206_142809"
+}

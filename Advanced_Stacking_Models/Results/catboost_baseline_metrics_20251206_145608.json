@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-12-06T14:56:08.103946",
+  "model": "CatBoost_Baseline",
+  "cv_metrics": {
+    "rmse_mean": 271.4085511559566,
+    "rmse_std": 14.565720732146946,
+    "r2_mean": 0.5501938306708983,
+    "r2_std": 0.04477083078073149,
+    "mae_mean": 211.45289684339,
+    "mae_std": 10.051837703247575
+  },
+  "full_metrics": {
+    "rmse": 83.67477524707569,
+    "r2": 0.9574043622988129,
+    "mae": 65.65783891208481
+  },
+  "parameters": {
+    "iterations": 1000,
+    "learning_rate": 0.03,
+    "depth": 6,
+    "l2_leaf_reg": 3,
+    "random_seed": 42,
+    "verbose": false,
+    "loss_function": "RMSE",
+    "eval_metric": "RMSE",
+    "early_stopping_rounds": 50
+  }
+}

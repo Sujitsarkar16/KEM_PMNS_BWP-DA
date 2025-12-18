@@ -1,0 +1,16 @@
+feature,XGBoost_rank,RandomForest_rank,rank_diff
+f0_m_fundal_ht_v2,11,6,5
+f0_m_wt_prepreg_squared,8,11,3
+bmi_age_ratio,15,13,2
+bmi_age_interaction,6,7,1
+wt_ht_interaction,7,8,1
+nutritional_status,9,10,1
+f0_m_bi_v1,10,9,1
+f0_m_int_sin_ma,13,14,1
+f0_m_age,14,15,1
+f0_m_plac_wt,1,1,0
+f0_m_GA_Del,2,2,0
+gestational_health_index,3,3,0
+f0_m_abd_cir_v2,4,4,0
+f0_m_rcf_v2,5,5,0
+f0_m_ht,12,12,0

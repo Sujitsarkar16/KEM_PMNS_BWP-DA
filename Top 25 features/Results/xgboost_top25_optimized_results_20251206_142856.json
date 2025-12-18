@@ -1,0 +1,70 @@
+{
+  "model_type": "XGBoost_Optimized_Top25",
+  "num_features": 25,
+  "features": [
+    "f0_m_GA_Del",
+    "f0_m_plac_wt",
+    "f0_m_abd_cir_v2",
+    "f0_m_wt_v2",
+    "f0_m_fundal_ht_v2",
+    "f0_m_hip_circ_v2",
+    "f0_m_rcf_v2",
+    "f0_m_ht",
+    "f0_m_bmi_v2",
+    "f0_m_wt_prepreg",
+    "f0_m_snacks_sc_v1",
+    "f0_m_waist_circ_v2",
+    "f0_m_j8_sc_v1",
+    "f0_m_f10_sc_v1",
+    "f0_m_bmi_6yr",
+    "f0_m_age",
+    "f0_m_m2_sc_v1",
+    "f0_m_n_sc_v1",
+    "f0_m_g1_sc_v2",
+    "f0_m_o_sc_v1",
+    "f0_m_g_sc_v2",
+    "f0_f_wt_ini",
+    "f0_m_glv_sc_v",
+    "f0_m_p10_sc_v1",
+    "f0_m_d1_sc_v1"
+  ],
+  "best_parameters": {
+    "subsample": 0.6,
+    "n_estimators": 50,
+    "min_child_weight": 5,
+    "max_depth": 3,
+    "learning_rate": 0.1,
+    "gamma": 0.1,
+    "colsample_bytree": 0.6
+  },
+  "performance_metrics": {
+    "train": {
+      "RMSE": 189.32323743722904,
+      "MAE": 146.70289577302344,
+      "R\u00b2": 0.7853539125210903,
+      "MAPE": 5.937655842305505,
+      "Correlation": 0.8957542479009193,
+      "P-value": 2.695630174831293e-168,
+      "Sample_Size": 474
+    },
+    "validation": {
+      "RMSE": 253.49873311882484,
+      "MAE": 196.580221521415,
+      "R\u00b2": 0.5830342481378524,
+      "MAPE": 7.678248670136635,
+      "Correlation": 0.7670492703813179,
+      "P-value": 7.078630660110741e-32,
+      "Sample_Size": 158
+    },
+    "test": {
+      "RMSE": 234.35546326102147,
+      "MAE": 189.90489202862557,
+      "R\u00b2": 0.6700382550400857,
+      "MAPE": 7.5856086402011735,
+      "Correlation": 0.8206492269940229,
+      "P-value": 5.386355235433756e-40,
+      "Sample_Size": 159
+    }
+  },
+  "timestamp": "20251206_142856"
+}

@@ -1,0 +1,60 @@
+{
+  "model_type": "MLE_Baseline_PMNS_Variables",
+  "num_features": 18,
+  "features": [
+    "f0_m_parity_v1",
+    "f0_m_wt_prepreg",
+    "f0_m_fundal_ht_v2",
+    "f0_m_abd_cir_v2",
+    "f0_m_wt_v2",
+    "f0_m_r4_v2",
+    "f0_m_lunch_cal_v1",
+    "f0_m_p_sc_v1",
+    "f0_m_o_sc_v1",
+    "f0_m_pulse_r1_v2",
+    "f0_m_pulse_r2_v2",
+    "f0_m_glu_f_v2",
+    "f0_m_rcf_v2",
+    "f0_m_g_sc_v1",
+    "f0_f_head_cir_ini",
+    "f0_f_plt_ini",
+    "f1_sex",
+    "f0_m_age_eld_child"
+  ],
+  "parameters": "Default EM parameters (max_iter=50, tol=1e-6)",
+  "convergence": {
+    "converged": true,
+    "iterations": 2,
+    "final_likelihood": -31428.657801069676
+  },
+  "performance_metrics": {
+    "train": {
+      "RMSE": 347.29685840088666,
+      "MAE": 263.1718990763022,
+      "R\u00b2": 0.27770128613372447,
+      "MAPE": 11.048794376647953,
+      "Correlation": 0.5269737053532502,
+      "P-value": 3.1461053892364045e-35,
+      "Sample_Size": 474
+    },
+    "validation": {
+      "RMSE": 341.7175181654766,
+      "MAE": 265.307282546819,
+      "R\u00b2": 0.24232442807277355,
+      "MAPE": 10.68676805096988,
+      "Correlation": 0.4967226295852447,
+      "P-value": 3.180851887142753e-11,
+      "Sample_Size": 158
+    },
+    "test": {
+      "RMSE": 372.1598156646407,
+      "MAE": 294.61537032195594,
+      "R\u00b2": 0.16790601397108074,
+      "MAPE": 12.378955153529771,
+      "Correlation": 0.43493218601342676,
+      "P-value": 1.011624022899069e-08,
+      "Sample_Size": 159
+    }
+  },
+  "timestamp": "20251213_215822"
+}
